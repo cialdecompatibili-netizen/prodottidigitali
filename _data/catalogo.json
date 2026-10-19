@@ -1,0 +1,231 @@
+{
+  "_nota": "PIANI AI (pre-ordine, nessun pagamento). Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine piano. L'id \"categoria\" e' riservato.",
+  "categorie": [
+    {
+      "id": "agenti",
+      "nome": "Agenti AI gestiti",
+      "icona": "🤖"
+    },
+    {
+      "id": "chat",
+      "nome": "Chat AI e LLM privati",
+      "icona": "🧠"
+    },
+    {
+      "id": "auto",
+      "nome": "Automazioni e dati",
+      "icona": "⚙️"
+    },
+    {
+      "id": "gpu",
+      "nome": "GPU su richiesta",
+      "icona": "⚡"
+    }
+  ],
+  "prodotti": [
+    {
+      "id": "openclaw-start",
+      "nome": "OpenClaw gestito Start",
+      "descrizione": "Il tuo agente AI sempre acceso, installato e aggiornato da noi.",
+      "categoria": "agenti",
+      "icona": "🤖",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1499,
+      "descrizione_completa": "Il tuo agente AI sempre acceso, installato e aggiornato da noi.\n1 agente, 2 vCPU, 4 GB RAM. Aggiornamenti, backup giornalieri, accesso protetto e non esposto su internet. Le chiavi API del modello AI sono tue.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "openclaw-pro",
+      "nome": "OpenClaw gestito Pro",
+      "descrizione": "Piu' agenti, piu' risorse, monitoraggio e riavvio automatico.",
+      "categoria": "agenti",
+      "icona": "🤖",
+      "tipo": "digitale",
+      "prezzo_centesimi": 2999,
+      "descrizione_completa": "Piu' agenti, piu' risorse, monitoraggio e riavvio automatico.\n2 agenti, 4 vCPU, 8 GB RAM. Aggiornamenti, backup giornalieri, monitoraggio. Le chiavi API del modello AI sono tue.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "openclaw-team",
+      "nome": "OpenClaw gestito Team",
+      "descrizione": "Agenti per un piccolo team, con assistenza prioritaria.",
+      "categoria": "agenti",
+      "icona": "🤖",
+      "tipo": "digitale",
+      "prezzo_centesimi": 5999,
+      "descrizione_completa": "Agenti per un piccolo team, con assistenza prioritaria.\n5 agenti, 8 vCPU, 16 GB RAM. Aggiornamenti, backup, monitoraggio, assistenza prioritaria. Le chiavi API del modello AI sono tue.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "agente-setup",
+      "nome": "Agente AI su misura (una tantum)",
+      "descrizione": "Configuriamo un agente per il tuo caso: email, calendario, fogli, messaggi.",
+      "categoria": "agenti",
+      "icona": "🛠️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 14900,
+      "descrizione_completa": "Configuriamo un agente per il tuo caso: email, calendario, fogli, messaggi.\nColloquio iniziale, configurazione, collegamento ai tuoi strumenti, prova guidata. Prezzo indicativo, preventivo su richiesta.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "bot-chat",
+      "nome": "Bot AI Telegram e Discord gestito",
+      "descrizione": "Un bot AI per la tua community o la tua attivita', sempre online.",
+      "categoria": "agenti",
+      "icona": "💬",
+      "tipo": "digitale",
+      "prezzo_centesimi": 999,
+      "descrizione_completa": "Un bot AI per la tua community o la tua attivita', sempre online.\nBot Telegram o Discord con il tuo prompt, aggiornamenti e monitoraggio. WhatsApp su richiesta (richiede un account Business con le sue regole). Chiavi API del modello tue.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "webui-start",
+      "nome": "Chat AI privata Start",
+      "descrizione": "Una chat AI tutta tua (Open WebUI) collegata ai modelli che scegli.",
+      "categoria": "chat",
+      "icona": "🧠",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1299,
+      "descrizione_completa": "Una chat AI tutta tua (Open WebUI) collegata ai modelli che scegli.\n2 vCPU, 4 GB RAM, utenti multipli, collegamento alle tue chiavi API (OpenAI, Anthropic, Google e altre), backup.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "webui-team",
+      "nome": "Chat AI privata Team",
+      "descrizione": "Chat AI per un team fino a 10 persone, con ricerca nei documenti.",
+      "categoria": "chat",
+      "icona": "🧠",
+      "tipo": "digitale",
+      "prezzo_centesimi": 2999,
+      "descrizione_completa": "Chat AI per un team fino a 10 persone, con ricerca nei documenti.\n4 vCPU, 8 GB RAM, fino a 10 utenti, ricerca nei tuoi documenti, collegamento alle tue chiavi API, backup.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "rag-docs",
+      "nome": "Base di conoscenza AI (documenti)",
+      "descrizione": "Fai domande ai tuoi documenti: manuali, contratti, procedure.",
+      "categoria": "chat",
+      "icona": "📚",
+      "tipo": "digitale",
+      "prezzo_centesimi": 3999,
+      "descrizione_completa": "Fai domande ai tuoi documenti: manuali, contratti, procedure.\n4 vCPU, 8 GB RAM, database vettoriale, caricamento PDF e Word, chat sui tuoi documenti. I tuoi dati restano sul tuo server.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "ollama-8",
+      "nome": "LLM privato su CPU 8 GB",
+      "descrizione": "Un modello AI piccolo che gira sul tuo server, senza inviare dati fuori.",
+      "categoria": "chat",
+      "icona": "🖥️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1999,
+      "descrizione_completa": "Un modello AI piccolo che gira sul tuo server, senza inviare dati fuori.\n8 GB RAM, modelli piccoli (circa 3-4 miliardi di parametri compressi). Adatto a classificare, riassumere, estrarre dati. Su CPU e' lento: non e' pensato per chat veloci.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "ollama-16",
+      "nome": "LLM privato su CPU 16 GB",
+      "descrizione": "Modelli medi su CPU per elaborazioni in background.",
+      "categoria": "chat",
+      "icona": "🖥️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 3499,
+      "descrizione_completa": "Modelli medi su CPU per elaborazioni in background.\n16 GB RAM, modelli fino a circa 8 miliardi di parametri compressi. Adatto a lavori in coda, non a risposte immediate.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "ollama-32",
+      "nome": "LLM privato su CPU 32 GB",
+      "descrizione": "Modelli piu' grandi su CPU per elaborazioni notturne e batch.",
+      "categoria": "chat",
+      "icona": "🖥️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 5999,
+      "descrizione_completa": "Modelli piu' grandi su CPU per elaborazioni notturne e batch.\n32 GB RAM, modelli fino a circa 14 miliardi di parametri compressi. Lento: per lavori in batch.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "n8n-start",
+      "nome": "n8n: installazione e manutenzione",
+      "descrizione": "Installiamo e teniamo aggiornato n8n sul tuo server o sul tuo account cloud.",
+      "categoria": "auto",
+      "icona": "⚙️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 999,
+      "descrizione_completa": "Installiamo e teniamo aggiornato n8n sul tuo server o sul tuo account cloud.\nn8n gira su un server intestato a te: la licenza di n8n non permette di dare accesso a pagamento a un'istanza nostra. Installazione, aggiornamenti, backup. Il server lo paghi tu al fornitore.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "n8n-pro",
+      "nome": "n8n: manutenzione Pro",
+      "descrizione": "Fino a 3 istanze n8n tue, con monitoraggio e assistenza prioritaria.",
+      "categoria": "auto",
+      "icona": "⚙️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1999,
+      "descrizione_completa": "Fino a 3 istanze n8n tue, con monitoraggio e assistenza prioritaria.\nFino a 3 istanze sui tuoi server: aggiornamenti, backup, monitoraggio, assistenza prioritaria. I server li paghi tu al fornitore.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "agent-container",
+      "nome": "Container per i tuoi agenti",
+      "descrizione": "Il tuo codice (bot, agenti, server MCP) in un container sempre acceso.",
+      "categoria": "auto",
+      "icona": "📦",
+      "tipo": "digitale",
+      "prezzo_centesimi": 799,
+      "descrizione_completa": "Il tuo codice (bot, agenti, server MCP) in un container sempre acceso.\n2 GB RAM, Docker, riavvio automatico, log, HTTPS. Il codice lo scrivi tu.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "vector-db",
+      "nome": "Database vettoriale gestito",
+      "descrizione": "Un database vettoriale (Qdrant) per le tue app AI.",
+      "categoria": "auto",
+      "icona": "🗄️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1499,
+      "descrizione_completa": "Un database vettoriale (Qdrant) per le tue app AI.\n4 GB RAM, backup giornalieri, accesso con chiave.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "gpu-20",
+      "nome": "GPU 20 GB gestita",
+      "descrizione": "Un server con GPU dedicata per modelli fino a circa 14 miliardi di parametri.",
+      "categoria": "gpu",
+      "icona": "⚡",
+      "tipo": "digitale",
+      "prezzo_centesimi": 39900,
+      "descrizione_completa": "Un server con GPU dedicata per modelli fino a circa 14 miliardi di parametri.\nGPU 20 GB di memoria, modello e interfaccia web installati, aggiornamenti. Si attiva solo dopo conferma: prezzo indicativo, preventivo su richiesta.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "gpu-96",
+      "nome": "GPU 96 GB gestita",
+      "descrizione": "Un server con GPU da 96 GB per modelli grandi e molti utenti insieme.",
+      "categoria": "gpu",
+      "icona": "⚡",
+      "tipo": "digitale",
+      "prezzo_centesimi": 179900,
+      "descrizione_completa": "Un server con GPU da 96 GB per modelli grandi e molti utenti insieme.\nGPU 96 GB di memoria, modello, vLLM e interfaccia web installati, operativita'. Si attiva solo con contratto di almeno 3 mesi: prezzo indicativo, preventivo su richiesta.\nPrezzo al mese, senza vincolo. Pre-ordine: nessun pagamento ora, ti scriviamo quando il servizio e' pronto.",
+      "immagine": "",
+      "visibile": true
+    }
+  ]
+}

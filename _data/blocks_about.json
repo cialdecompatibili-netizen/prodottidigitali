@@ -1,0 +1,8 @@
+[
+  {
+    "id": "main",
+    "nome": "Contenuto",
+    "enabled": true,
+    "html": "<p>ScalaAI offre agenti AI, chat private e automazioni gestiti a canone mensile. Servizio indipendente: OpenClaw, n8n, Open WebUI e gli altri software citati appartengono ai rispettivi autori.</p><h2>Servizi</h2><ul><li><a href=\"__BASEURL__/servizi/openclaw-gestito/\">OpenClaw gestito</a></li><li><a href=\"__BASEURL__/servizi/bot-ai-gestiti/\">Bot AI gestiti</a></li><li><a href=\"__BASEURL__/servizi/chat-ai-privata/\">Chat AI privata</a></li><li><a href=\"__BASEURL__/servizi/llm-privato-su-cpu/\">LLM privato su CPU</a></li><li><a href=\"__BASEURL__/servizi/automazioni-n8n/\">Automazioni e dati</a></li><li><a href=\"__BASEURL__/servizi/gpu-su-richiesta/\">GPU su richiesta</a></li></ul><p>Pre-ordina un piano o scrivici dalla pagina Contatti.</p>"
+  }
+]
