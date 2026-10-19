@@ -1,6 +1,6 @@
-# extremefuni
+# prodottidigitali
 
-Sito Jekyll su GitHub Pages: https://extremefuni.it/
+Sito Jekyll su GitHub Pages: https://cialdecompatibili-netizen.github.io/prodottidigitali/ (repo cialdecompatibili-netizen/prodottidigitali, cartella Desktop\repository\prodottidigitali). Clone di serverai, da riscrivere come negozio di prodotti digitali.
 
 ## Cose che funzionano
 - Skill Impeccable (design): installata a livello progetto con `npx --yes impeccable install --providers=claude --scope=project` dalla radice del progetto. I flag evitano le domande interattive. Dopo l'installazione, in Claude Code (anche nella scheda Code di Claude Desktop) lanciare `/impeccable init`.
@@ -32,3 +32,4 @@ Sito Jekyll su GitHub Pages: https://extremefuni.it/
 - Ordini (smoke test, nessun pagamento): `ordini.tracker` in `_config.yml` = URL di un Apps Script Google. Vuoto = il pulsante "Invia richiesta d'ordine" resta spento. Per pagamenti veri vedi `_ecommerce` in box-ecommerce (Stripe + D1).
 - Il vecchio shop (`_pages/shop*.md`, collezione `products`, admin Prodotti/Categorie Shop) resta com'era e non e' collegato al menu; con l'e-commerce acceso l'icona carrello del vecchio shop sparisce.
 - Immagini prodotto: `assets/img/negozio/` (caricate dall'admin) o URL.
+- Clonare una repo in un colpo: `powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\mirco\Desktop\claudetemp\clone_repo.ps1 -src <repo-origine> -dst <nuova-repo>` (copia i file, cambia il baseurl in _config.yml, crea la repo su GitHub, la pusha e attiva Pages da main). Provato il 19/10/2026: prodottidigitali da serverai in circa un minuto. Poi riscrivere questo blocco e i contenuti.
