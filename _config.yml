@@ -34,9 +34,6 @@ collections:
   products:
     output: true
     permalink: /shop/:name/
-  servizi:
-    output: true
-    permalink: /servizi/:name/
   progetti:
     output: true
     permalink: /progetti/:name/
@@ -77,13 +74,6 @@ defaults:
     values:
       layout: product
       classes: wide
-  - scope:
-      path: ""
-      type: servizi
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
       share: true
   - scope:
       path: ""
