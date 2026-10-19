@@ -7,7 +7,9 @@
     { "id": "excel", "nome": "Fogli Excel pronti", "icona": "📊" },
     { "id": "prompt", "nome": "Prompt e skill Claude", "icona": "🤖" },
     { "id": "n8n", "nome": "Workflow n8n", "icona": "⚙️" },
-    { "id": "guide", "nome": "Ebook e guide", "icona": "📘" }
+    { "id": "guide", "nome": "Ebook e guide", "icona": "📘" },
+    { "id": "stampabili", "nome": "Moduli e checklist stampabili", "icona": "📄" },
+    { "id": "bundle", "nome": "Kit completi a prezzo scontato", "icona": "🎁" }
   ],
   "prodotti": [
     {
@@ -175,6 +177,162 @@
       "tipo": "digitale",
       "prezzo_centesimi": 1500,
       "descrizione_completa": "Ebook pratico su come costruire e vendere prodotti digitali con Claude Code.\nPDF con il metodo, esempi reali e una checklist di lancio.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "excel-affitti-brevi",
+      "nome": "Foglio Excel affitti brevi e B&B",
+      "descrizione": "Prenotazioni, incassi, spese e tassa di soggiorno per chi affitta case vacanza e camere.",
+      "categoria": "excel",
+      "icona": "🏠",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1900,
+      "descrizione_completa": "Prenotazioni, incassi, spese e tassa di soggiorno per chi affitta case vacanza e camere.\nCalendario prenotazioni, ricavi per mese, costi di pulizia e commissioni dei portali, riepilogo annuale. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "excel-food-cost",
+      "nome": "Foglio Excel food cost e menu",
+      "descrizione": "Calcola il costo di ogni piatto, il margine e il prezzo di vendita giusto.",
+      "categoria": "excel",
+      "icona": "🍽️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 2400,
+      "descrizione_completa": "Calcola il costo di ogni piatto, il margine e il prezzo di vendita giusto.\nRicettario con ingredienti e prezzi, food cost per piatto, margine e prezzo consigliato, analisi del menu. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "excel-cantiere",
+      "nome": "Foglio Excel preventivo e margine cantiere",
+      "descrizione": "Preventivo a voci, costi reali e margine di ogni lavoro per imprese edili e artigiani.",
+      "categoria": "excel",
+      "icona": "🚧",
+      "tipo": "digitale",
+      "prezzo_centesimi": 2900,
+      "descrizione_completa": "Preventivo a voci, costi reali e margine di ogni lavoro per imprese edili e artigiani.\nPreventivo per voci con stampa per il cliente, registro dei costi per cantiere, confronto tra preventivato e speso, margine finale. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "excel-magazzino",
+      "nome": "Foglio Excel magazzino e scorte",
+      "descrizione": "Carico, scarico e soglie di riordino per piccoli negozi e laboratori.",
+      "categoria": "excel",
+      "icona": "📦",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1900,
+      "descrizione_completa": "Carico, scarico e soglie di riordino per piccoli negozi e laboratori.\nAnagrafica articoli, movimenti di carico e scarico, giacenza automatica, avviso di riordino, valore del magazzino. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "stampabili-registro-temperature",
+      "nome": "Registri temperature e pulizie stampabili",
+      "descrizione": "Registri pronti da stampare per frigoriferi, congelatori e pulizie di bar e ristoranti.",
+      "categoria": "stampabili",
+      "icona": "🌡️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1500,
+      "descrizione_completa": "Registri pronti da stampare per frigoriferi, congelatori e pulizie di bar e ristoranti.\nRegistro temperature giornaliero, piano di pulizia settimanale, registro ricezione merci, in PDF e Word modificabile. Modulistica di supporto: non sostituisce il manuale di autocontrollo della tua attivita'.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "stampabili-checklist-cantiere",
+      "nome": "Checklist di cantiere stampabili",
+      "descrizione": "Verbale di consegna lavori, checklist giornaliera e collaudo finale per imprese e artigiani.",
+      "categoria": "stampabili",
+      "icona": "✅",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1200,
+      "descrizione_completa": "Verbale di consegna lavori, checklist giornaliera e collaudo finale per imprese e artigiani.\nChecklist di avvio, giornaliera e di chiusura lavori, verbale di consegna da far firmare al cliente, in PDF e Word modificabile.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "stampabili-moduli-bb",
+      "nome": "Moduli per B&B e affittacamere stampabili",
+      "descrizione": "Scheda ospite, regolamento della casa, check-in e check-out e check-list pulizie.",
+      "categoria": "stampabili",
+      "icona": "🛏️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 1200,
+      "descrizione_completa": "Scheda ospite, regolamento della casa, check-in e check-out e check-list pulizie.\nScheda ospite, regolamento della casa, modulo di check-in e check-out, check-list pulizie camera, in PDF e Word modificabile.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "template-parrucchieri",
+      "nome": "Template sito per parrucchieri e centri estetici",
+      "descrizione": "Sito Jekyll con listino, prenotazione, galleria prima e dopo e contatti.",
+      "categoria": "template",
+      "icona": "💇",
+      "tipo": "digitale",
+      "prezzo_centesimi": 4900,
+      "descrizione_completa": "Sito Jekyll con listino, prenotazione, galleria prima e dopo e contatti.\nPacchetto zip con home, listino servizi, galleria, contatti e pannello admin per modificare i testi senza toccare il codice. Pubblicabile gratis su GitHub Pages.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "template-bb",
+      "nome": "Template sito per B&B e affittacamere",
+      "descrizione": "Sito Jekyll con camere, prezzi, galleria, dintorni e richiesta di disponibilita'.",
+      "categoria": "template",
+      "icona": "🏨",
+      "tipo": "digitale",
+      "prezzo_centesimi": 4900,
+      "descrizione_completa": "Sito Jekyll con camere, prezzi, galleria, dintorni e richiesta di disponibilita'.\nPacchetto zip con pagine camere, galleria, zona e contatti con richiesta di disponibilita', pannello admin incluso. Pubblicabile gratis su GitHub Pages.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "n8n-pack-artigiani",
+      "nome": "Pack n8n per artigiani (5 workflow)",
+      "descrizione": "Cinque automazioni pronte: preventivo, contatti, recensioni, promemoria appuntamenti e solleciti.",
+      "categoria": "n8n",
+      "icona": "⚙️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 3900,
+      "descrizione_completa": "Cinque automazioni pronte: preventivo, contatti, recensioni, promemoria appuntamenti e solleciti.\nCinque workflow n8n in JSON con guida di installazione passo passo: preventivo via email, raccolta contatti, richiesta recensioni, promemoria appuntamenti, sollecito pagamenti.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "bundle-ristorante",
+      "nome": "Kit ristorante: sito, food cost e registri",
+      "descrizione": "Template sito, foglio food cost e registri temperature in un unico pacchetto.",
+      "categoria": "bundle",
+      "icona": "🍴",
+      "tipo": "digitale",
+      "prezzo_centesimi": 6900,
+      "descrizione_completa": "Template sito, foglio food cost e registri temperature in un unico pacchetto.\nInclude Template sito per ristoranti, Foglio Excel food cost e menu, Registri temperature e pulizie stampabili.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "bundle-artigiano",
+      "nome": "Kit artigiano: sito, preventivo e automazioni",
+      "descrizione": "Template sito, foglio cantiere, pack n8n e checklist di cantiere insieme.",
+      "categoria": "bundle",
+      "icona": "🛠️",
+      "tipo": "digitale",
+      "prezzo_centesimi": 8900,
+      "descrizione_completa": "Template sito, foglio cantiere, pack n8n e checklist di cantiere insieme.\nInclude Template sito per artigiani, Foglio Excel preventivo e margine cantiere, Pack n8n per artigiani, Checklist di cantiere stampabili.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
+      "immagine": "",
+      "visibile": true
+    },
+    {
+      "id": "bundle-bb",
+      "nome": "Kit B&B: sito, foglio affitti e moduli",
+      "descrizione": "Template sito B&B, foglio affitti brevi e moduli stampabili in un unico pacchetto.",
+      "categoria": "bundle",
+      "icona": "🏡",
+      "tipo": "digitale",
+      "prezzo_centesimi": 6500,
+      "descrizione_completa": "Template sito B&B, foglio affitti brevi e moduli stampabili in un unico pacchetto.\nInclude Template sito per B&B, Foglio Excel affitti brevi e B&B, Moduli per B&B e affittacamere stampabili.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e' pronto.",
       "immagine": "",
       "visibile": true
     }
