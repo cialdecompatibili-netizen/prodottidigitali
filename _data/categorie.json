@@ -1,18 +1,14 @@
 [
   {
-    "nome": "tecnica",
-    "descrizione": "Guide e novita su agenti AI, LLM privati e automazioni"
+    "nome": "template",
+    "descrizione": "Template di siti Jekyll pronti per attivita' italiane"
   },
   {
-    "nome": "servizi",
-    "descrizione": "Guide e novita su agenti AI, LLM privati e automazioni"
+    "nome": "guide",
+    "descrizione": "Ebook e guide pratiche su siti, automazioni e prodotti digitali"
   },
   {
-    "nome": "Guide",
-    "descrizione": "Guide e novita su agenti AI, LLM privati e automazioni"
-  },
-  {
-    "nome": "Tutorial",
-    "descrizione": "Guide e novita su agenti AI, LLM privati e automazioni"
+    "nome": "automazioni",
+    "descrizione": "Workflow n8n, prompt e strumenti per risparmiare tempo"
   }
 ]

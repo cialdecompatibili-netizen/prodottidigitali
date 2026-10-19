@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Contatti"
-seo_title: "Contatti | ScalaAI"
-seo_description: "Scrivici cosa ti serve (agente AI, chat privata, automazioni): ti rispondiamo entro 24 ore, festivi esclusi."
+seo_title: "Contatti | Prodotti Digitali"
+seo_description: "Scrivici cosa ti serve o quale prodotto cerchi: ti rispondiamo entro 24 ore, festivi esclusi."
 permalink: /contatti/
 ---
 
@@ -17,7 +17,7 @@ permalink: /contatti/
   accetti il dominio di questo sito (campo "sito" = location.hostname).
 {%- endcomment -%}
 
-<p class="cf-intro">Dicci cosa vuoi automatizzare o quale agente ti serve: ti rispondiamo entro 24 ore, festivi esclusi.</p>
+<p class="cf-intro">Dicci quale prodotto ti serve o cosa cerchi: ti rispondiamo entro 24 ore, festivi esclusi.</p>
 
 <style>
 .cf-wrap,.cf-intro{max-width:520px;margin-left:auto;margin-right:auto}
@@ -54,7 +54,7 @@ permalink: /contatti/
   </div>
   <div class="cf-campo">
     <label for="cf-msg">Cosa ti serve?</label>
-    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: un agente che legge le mie email e prepara le risposte."></textarea>
+    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: vorrei il template per il sito del mio ristorante."></textarea>
   </div>
   <div style="position:absolute;left:-9999px;height:0;overflow:hidden" aria-hidden="true">
     <label for="cf-web">Non compilare</label>

@@ -1,17 +1,17 @@
 related_posts: 3
-title: ScalaAI
+title: Prodotti Digitali
 baseurl: "/prodottidigitali"
 url: "https://cialdecompatibili-netizen.github.io"
 email: ""
-description: "ScalaAI: agenti AI gestiti (OpenClaw), chat AI private, LLM su server dedicato e automazioni a canone mensile. Pre-ordina senza pagamento anticipato."
-footer_text: "&copy; 2026 ScalaAI"
+description: "Prodotti Digitali: template di siti, plugin, fogli Excel, modelli di testi, prompt Claude, workflow n8n e guide. Pre-ordina senza pagamento anticipato."
+footer_text: "&copy; 2026 Prodotti Digitali"
 minimal_mistakes_skin: default
 search: true
 
 # SEO globale
 author:
-  name: "ScalaAI"
-  bio: "Agenti AI, chat private e automazioni gestiti a canone mensile. Pre-ordina il tuo piano."
+  name: "Prodotti Digitali"
+  bio: "Template, plugin, fogli Excel, testi, prompt, workflow n8n e guide. Pre-ordina il tuo prodotto."
   links:
     - label: "Scrivici"
       icon: "fas fa-fw fa-envelope"

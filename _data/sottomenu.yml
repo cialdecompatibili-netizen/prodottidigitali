@@ -32,19 +32,21 @@
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
 
-Piani:
-  - title: "OpenClaw gestito"
-    url: "/servizi/openclaw-gestito/"
-  - title: "Bot AI gestiti"
-    url: "/servizi/bot-ai-gestiti/"
-  - title: "Chat AI privata"
-    url: "/servizi/chat-ai-privata/"
-  - title: "LLM privato su CPU"
-    url: "/servizi/llm-privato-su-cpu/"
-  - title: "Automazioni e dati"
-    url: "/servizi/automazioni-n8n/"
-  - title: "GPU su richiesta"
-    url: "/servizi/gpu-su-richiesta/"
+Categorie:
+  - title: "Template siti Jekyll"
+    url: "/negozio/categoria/template/"
+  - title: "Moduli e plugin PHP"
+    url: "/negozio/categoria/plugin/"
+  - title: "Modelli di testi"
+    url: "/negozio/categoria/testi/"
+  - title: "Fogli Excel pronti"
+    url: "/negozio/categoria/excel/"
+  - title: "Prompt e skill Claude"
+    url: "/negozio/categoria/prompt/"
+  - title: "Workflow n8n"
+    url: "/negozio/categoria/n8n/"
+  - title: "Ebook e guide"
+    url: "/negozio/categoria/guide/"
   - divider: true
-  - title: "Tutti i piani"
-    url: "/servizi/"
+  - title: "Tutti i prodotti"
+    url: "/negozio/"
