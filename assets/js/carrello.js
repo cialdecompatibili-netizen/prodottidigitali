@@ -407,10 +407,10 @@
 
   /* ORDINE (/ordine/): passi Dati > Spedizione (solo se c'e' un prodotto fisico) > Pagamento.
      SMOKE TEST: nessun pagamento reale e NESSUN dato di carta raccolto (si sceglie solo il metodo). Alla conferma si scrive UNA RIGA nel foglio Google
-     (tracker, _config.yml > ordini.tracker) con ordine, dati di spedizione e metodo scelto, poi si mostra un errore di pagamento (modalita' test):
+     (tracker, _config.yml > ordini.tracker) con nome, email, telefono, prodotti e totale, poi si mostra "moduli di pagamento fuori servizio" (modalita' test):
      il carrello resta com'e' e si puo' riprovare o cambiare metodo.
      Riga: bottone "ordine-errore-pagamento-test", prodotto "nome xQta [#id]", prezzo = totale in euro, browser "smoke-test",
-     device "email | nome cognome | telefono | indirizzo (o digitale) | pagamento: metodo | esito: errore | note".
+     device "email | nome cognome | telefono".
      Limiti noti: risposta del tracker opaca (no-cors); antispam leggero lato browser (campo trappola + 3 secondi minimi). */
   var modulo = document.getElementById("nz-ordine");
   var passo = 1;
@@ -620,7 +620,7 @@
          si manderebbe l'esito al foglio/gestionale, poi salva({}), disegna() e redirect a /grazie/ (che svuota comunque il carrello). */
       var mostraErrore = function () {
         esitoOrd.className = "nz-esito nz-esito-err";
-        esitoOrd.textContent = ERRORI[m] + " Nessun importo è stato addebitato (modalità test). Riprova o scegli un altro metodo di pagamento. Rif. " + idOrd;
+        esitoOrd.textContent = "I moduli di pagamento sono momentaneamente fuori servizio. Nessun importo è stato addebitato. Riprova più tardi. Rif. " + idOrd;
         esitoOrd.hidden = false;
         inviaOrd.disabled = false;
         riepilogoOrd();
@@ -648,11 +648,7 @@
         prodotto: sicuro(voci.join(", ") + " [#" + idOrd + "]").slice(0, 500),
         prezzo: String(tot / 100),
         browser: "smoke-test",
-        device: sicuro(
-          [val("nz-o-email"), val("nz-o-nome") + " " + val("nz-o-cognome"), val("nz-o-tel") || "-", serve() ? indirizzo() : "digitale", "pagamento: " + PAGAMENTI[m], "esito: errore"]
-            .concat(nota ? ["note: " + nota] : [])
-            .join(" | ")
-        ).slice(0, 700),
+        device: sicuro([val("nz-o-email"), val("nz-o-nome") + " " + val("nz-o-cognome"), val("nz-o-tel") || "-"].join(" | ")).slice(0, 700),
       });
       fetch(tracker + (tracker.indexOf("?") < 0 ? "?" : "&") + q.toString(), { mode: "no-cors" })
         .then(function () {
