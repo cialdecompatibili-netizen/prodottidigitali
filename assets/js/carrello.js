@@ -231,7 +231,10 @@
         q_box.appendChild(tasto("+", "piu", id));
         q_td.appendChild(q_box);
         var x_td = el("td");
-        x_td.appendChild(tasto("Togli", "togli", id));
+        var xb = tasto("", "togli", id, "nz-x");
+        xb.setAttribute("aria-label", "Togli dal carrello");
+        xb.title = "Togli dal carrello";
+        x_td.appendChild(xb);
         var n_td = el("td");
         var inf = info[id] || {};
         var pr = el(inf.u ? "a" : "span", undefined, "nz-pr");
