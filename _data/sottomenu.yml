@@ -71,6 +71,8 @@ Categorie:
     url: "/negozio/categoria/eventi/"
   - title: "Google Sheets"
     url: "/negozio/categoria/sheets/"
+  - title: "Uncinetto"
+    url: "/negozio/categoria/uncinetto/"
   - divider: true
   - title: "Tutti i prodotti"
     url: "/negozio/"
