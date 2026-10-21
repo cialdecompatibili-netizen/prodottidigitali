@@ -349,3 +349,12 @@
   #nz-carrello-pag .nz-az-carrello .nz-b.nz-b, #nz-carrello-pag .nz-az-carrello .nz-b.nz-b::after, #nz-carrello-pag .nz-x { transition: none; }
   #nz-carrello-pag .nz-az-carrello .nz-b.nz-b:hover, #nz-carrello-pag .nz-x:hover { transform: none; }
 }
+
+/* CARD PRODOTTO CLICCABILE: un tap ovunque sulla card apre la scheda (link esteso sul titolo).
+   Restano attivi quantita', Aggiungi al carrello e il link della categoria. */
+#negozio .nz-riga { position: relative; cursor: pointer; }
+#negozio .nz-riga .nz-testo h3 a::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+#negozio .nz-riga:hover .nz-testo h3 a { color: var(--nz-tema); }
+#negozio .nz-riga .nz-cat a { position: relative; z-index: 2; }
+#negozio .nz-riga .nz-azioni { position: relative; z-index: 2; pointer-events: none; }
+#negozio .nz-riga .nz-azioni .nz-step, #negozio .nz-riga .nz-azioni .nz-add { pointer-events: auto; cursor: pointer; }

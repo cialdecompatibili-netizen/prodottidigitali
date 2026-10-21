@@ -31,6 +31,9 @@ body { font-size: calc(1rem * var(--t-font-scale)); }
 .page__footer footer, .page__footer-follow, .page__footer-copyright { background: var(--t-body-bg) !important; }
 .page__footer-follow ul li, .page__footer-follow ul li a, .page__footer-copyright a, .page__footer-copyright { color: #888 !important; }
 .page__footer-follow ul li a:hover, .page__footer-copyright a:hover { color: var(--t-nav-text) !important; text-decoration: none; }
+/* CARD CLICCABILI (blog, articoli e servizi correlati): un tap ovunque sulla card apre la pagina */
+.archive__item { position: relative; }
+.archive__item-title a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
 /* FIX bottoni shop */
 .page__content button.sp-btn-cart, button.sp-btn-cart { display:inline-flex !important; align-items:center !important; justify-content:center !important; flex:1 !important; padding:12px 20px !important; background:var(--t-accent) !important; color:#fff !important; border:none !important; border-radius:var(--t-radius, 10px) !important; font-size:15px !important; font-weight:700 !important; cursor:pointer !important; letter-spacing:.3px !important; visibility:visible !important; opacity:1 !important; height:auto !important; width:auto !important; min-width:0 !important; line-height:1.4 !important; }
 .page__content button.sp-btn-cart:hover, button.sp-btn-cart:hover { background: var(--t-accent-dark) !important; color: #fff !important; }
